@@ -11,12 +11,23 @@ Permite una integración más sencilla de <b>Checkout Pro</b> de <b>Mercado pago
 * Duración de una preferencia.
 * Controlador predefinido
 
+## Dependencia Maven
+
+```java
+<dependency>
+    <groupId>io.github.cscristianmoreno</groupId>
+    <artifactId>mercadopago</artifactId>
+    <version>1.0</version>
+</dependency>
+```
+
 ## ¿Cómo funciona?
 
 <p>Utiliza la <b>SDK de Mercado Pago</b> para simplificar las cosas a través de anotaciones mediante <b>reflexión</b>.</p>
 
 
 ## ¿Cómo inicializarlo?
+
 Para inicializarlo es necesario la anotación <b>@MercadoPago</b> e inicializarlo en la clase <b>Main</b>.
 
 ```java

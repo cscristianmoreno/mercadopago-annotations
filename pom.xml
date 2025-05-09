@@ -152,5 +152,6 @@
         </configuration>
       </plugin>
     </plugins>
+    <finalName>mercadopago</finalName>
   </build>
 </project>
