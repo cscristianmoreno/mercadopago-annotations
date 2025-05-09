@@ -150,11 +150,13 @@ public class newProduct {
     private int quantity = 1;
 
     @CategoryId
-    private String categoryId = "asd";
+    private String categoryId = "ID categoría";
 }
 ```
 
 _Po defecto el campo @Id es autoincrementable al ser nulo._
+
+<img src="assets/images/image.png"/>
 
 ## Obtener productos 
 <p>Para obtener ya sea un producto registrado, o todos, se debe utilizar la clase <b>MPItem</b>. Esto devuelve una lista de <b>PreferenceItemRequest</b></p>.
