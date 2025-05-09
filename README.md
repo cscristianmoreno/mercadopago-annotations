@@ -123,7 +123,7 @@ public void postMethodName(@RequestBody MPResult result) {
 ```
 
 ## Registrar productos
-<p>Para registrar un produto, los atributos <b>@UnitPrice</b> y <b>@Quantity</b> son obligatorios.</p>
+<p>Para registrar un produto, los atributos <b>@Id</b>, <b>@UnitPrice</b> y <b>@Quantity</b> son obligatorios.</p>
 
 ```java
 @MercadoPagoITem
