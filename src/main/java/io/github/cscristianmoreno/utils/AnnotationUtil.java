@@ -29,7 +29,6 @@ public abstract class AnnotationUtil {
     
     /** 
      * @param status
-     * @return Class<? extends Annotation>
      */
     public static Class<? extends Annotation> getAnnotationMatchStatus(final String status) {
         Map<String, Class<? extends Annotation>> map = Map.of(
@@ -46,7 +45,7 @@ public abstract class AnnotationUtil {
 
         return map.get(status);
     }
-
+    
     public static List<Annotation> getItemAnnotations(Annotation[] annotations) {
         List<Annotation> list = List.of(annotations);
 

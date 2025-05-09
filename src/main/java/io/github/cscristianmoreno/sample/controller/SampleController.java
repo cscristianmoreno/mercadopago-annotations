@@ -9,9 +9,6 @@ import io.github.cscristianmoreno.mercadopago.response.MPResponseBody;
 @MercadoPagoController
 public class SampleController {
     
-    /** 
-     * @param responseBody
-     */
     @MPPaymentResponse
     public void response(MPResponseBody mpResponseBody) {
         System.out.println(mpResponseBody);
