@@ -46,6 +46,7 @@ public class PruebaApplication {
 </p>
 
 _<p>NOTA: Es posible que las solicitudes no sean enviadas en tiempo real a los métodos.</p>_
+_<p>NOTA: También, por el momento, los controladores no envían la solicitud a ningún origen.</p>_
 
 <!-- <p> -->
 * <b>@MPPaymentPending</b> 
